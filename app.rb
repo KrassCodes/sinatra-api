@@ -2,6 +2,6 @@ require 'sinatra/base'
 
 class KrassAPI < Sinatra::Base
   get '/' do
-    'hello world i love krass'
+    {'UUID': 12, 'name': 'meghan'}
   end
 end
